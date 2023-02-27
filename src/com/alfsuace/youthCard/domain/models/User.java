@@ -1,6 +1,6 @@
 package com.alfsuace.youthCard.domain.models;
 
-public class Users {
+public class User {
     private String nif;
     private String name;
     private String surname;
