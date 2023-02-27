@@ -10,5 +10,17 @@ public class Menu {
     //Crear una compra.
     //Listar las compras.
 
+     private void createNewBussinesForm(){
+         NewBussinesForm newBussinesForm = new NewBussinesForm;
+         newBussinesForm.createNewBussines();
+     }
+    listBussinesForm();
+    createUserForm();
+    listUserForm();
+
+    createPromotionForm();
+    listPromotionForm();
+    createPurchaseForm();
+    listPurchaseForm();
 
 }
