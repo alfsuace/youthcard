@@ -7,4 +7,7 @@ import java.util.List;
 public interface PromotionRepository {
 
     List<Promotion> getAll();
+
+    void save(Promotion promotion);
+
 }
