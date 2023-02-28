@@ -40,7 +40,8 @@ public class Menu {
          newPurchaseForm.createPurchase();
         }
     private void listPurchaseForm(){
-
+        ListPurchaseForm listPurchaseForm = new ListPurchaseForm();
+        listPurchaseForm.list();
         }
 
 }
