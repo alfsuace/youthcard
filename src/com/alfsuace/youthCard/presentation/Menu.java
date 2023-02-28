@@ -35,7 +35,12 @@ public class Menu {
          ListPromotionForm listPromotionForm = new ListPromotionForm();
          listPromotionForm.list();
     }
-    private void createPurchaseForm();
-    listPurchaseForm();
+    private void createPurchaseForm(){
+         NewPurchaseForm newPurchaseForm = new NewPurchaseForm();
+         newPurchaseForm.createPurchase();
+        }
+    private void listPurchaseForm(){
+
+        }
 
 }
