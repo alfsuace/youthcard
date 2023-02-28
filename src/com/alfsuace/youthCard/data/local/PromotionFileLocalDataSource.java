@@ -82,7 +82,7 @@ public class PromotionFileLocalDataSource {
         return new ArrayList<Promotion>();
     }
 
-    public void delete(Integer promotionId) {
+    public void delete(String promotionId) {
         List<Promotion> newPromotionsList = new ArrayList<>();
         List<Promotion> promotions = findAll();
         for (Promotion promotion : promotions) {

@@ -1,17 +1,17 @@
 package com.alfsuace.youthCard.domain.models;
 
 public class Promotion {
-    private Integer id;
+    private String id;
     private String title;
     private String description;
     private Integer discount;
 
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 

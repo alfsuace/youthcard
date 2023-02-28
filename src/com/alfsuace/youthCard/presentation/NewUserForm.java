@@ -26,6 +26,7 @@ public class NewUserForm {
         user.setAddress("Direccion");
         user.setNif("54656s");
         user.setSurname("Sanchez");
+        return user;
     }
 
 }

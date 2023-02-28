@@ -11,17 +11,25 @@ public class Menu {
     //Listar las compras.
 
      private void createNewBussinesForm(){
-         NewBussinesForm newBussinesForm = new NewBussinesForm;
+         NewBussinesForm newBussinesForm = new NewBussinesForm();
          newBussinesForm.createNewBussines();
      }
-    listBussinesForm();
-    createUserForm();{
-        NewUserForm newUserForm = NewUserForm;
+    private void listBussinesForm(){
+         ListBussinesForm listBussinesForm = new ListBussinesForm();
+         listBussinesForm.list();
+    }
+    public void createUserForm(){
+        NewUserForm newUserForm = new NewUserForm();
         newUserForm.createNewUser();
     }
-    listUserForm();
+    public void listUserForm(){
+         ListUserForm listUserForm = new ListUserForm();
+         listUserForm.list();
+    }
 
-    createPromotionForm();
+    public void createPromotionForm(){
+         NewPromotionForm newPromotionForm
+    }
     listPromotionForm();
     createPurchaseForm();
     listPurchaseForm();
