@@ -1,14 +1,17 @@
 package com.alfsuace.youthCard.presentation;
 
 public class Menu {
-    //Crear una empresa.
-    //Listar empresas.
-    //Crear usuario.
-    //Listar usuarios.
-    //Crear una promoción.
-    //Listar las promociones.
-    //Crear una compra.
-    //Listar las compras.
+
+    public void init(){
+        //createNewBussinesForm();
+        //listBussinesForm();
+        //createUserForm();
+        //listUserForm();
+        //createPromotionForm();
+        //listPromotionForm();
+        //createPurchaseForm();
+        //listPurchaseForm();
+    }
 
      private void createNewBussinesForm(){
          NewBussinesForm newBussinesForm = new NewBussinesForm();
