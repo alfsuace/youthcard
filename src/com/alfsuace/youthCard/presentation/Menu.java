@@ -15,7 +15,10 @@ public class Menu {
          newBussinesForm.createNewBussines();
      }
     listBussinesForm();
-    createUserForm();
+    createUserForm();{
+        NewUserForm newUserForm = NewUserForm;
+        newUserForm.createNewUser();
+    }
     listUserForm();
 
     createPromotionForm();
