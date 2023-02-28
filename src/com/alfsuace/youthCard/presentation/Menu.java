@@ -18,20 +18,24 @@ public class Menu {
          ListBussinesForm listBussinesForm = new ListBussinesForm();
          listBussinesForm.list();
     }
-    public void createUserForm(){
+    private void createUserForm(){
         NewUserForm newUserForm = new NewUserForm();
         newUserForm.createNewUser();
     }
-    public void listUserForm(){
+    private void listUserForm(){
          ListUserForm listUserForm = new ListUserForm();
          listUserForm.list();
     }
 
-    public void createPromotionForm(){
-         NewPromotionForm newPromotionForm
+    private void createPromotionForm(){
+         NewPromotionForm newPromotionForm = new NewPromotionForm();
+         newPromotionForm.createNewPromotion();
     }
-    listPromotionForm();
-    createPurchaseForm();
+    private void listPromotionForm(){
+         ListPromotionForm listPromotionForm = new ListPromotionForm();
+         listPromotionForm.list();
+    }
+    private void createPurchaseForm();
     listPurchaseForm();
 
 }

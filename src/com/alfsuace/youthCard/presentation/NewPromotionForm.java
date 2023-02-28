@@ -28,5 +28,4 @@ public class NewPromotionForm {
         createPromotionUseCase.execute(promotion);
     }
 
-
 }
